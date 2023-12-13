@@ -18,6 +18,7 @@ export default function Navbar(props) {
                 <Link className="nav-Link" id="hom" style={{color: props.mode === 'dark' ? 'white' : 'black' , cursor: 'pointer'}}aria-current="page "to="/"> <b>Home</b> </Link>
               </li>
               <li className="nav-item">
+          
                 <Link className="nav-Link" id="abut" style={{color: props.mode === 'dark' ? 'white' : 'black' , cursor: 'pointer'}}aria-current="page" to="/about"><b>About US</b></Link>
               </li>
               <li className="nav-item">
